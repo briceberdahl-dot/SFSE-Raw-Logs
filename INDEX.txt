@@ -1,0 +1,34 @@
+﻿SFSE RAW UI LOG SPLIT INDEX
+============================================================
+Source:
+C:\Users\12525\Desktop\ui.txt
+
+Split rule:
+  - Original ui.txt is NOT modified
+  - No filtering
+  - No compression
+  - No event removal
+  - No field modification
+  - Split ONLY between complete lines
+  - Files must be read in filename order
+
+Original total lines : 66,065
+Original total bytes : 11,480,296
+Generated parts      : 3
+Target part size     : 5,242,880 bytes
+
+PARTS
+------------------------------------------------------------
+ui_part_001.txt    5,242,829 bytes    5.000 MB
+ui_part_002.txt    5,242,844 bytes    5.000 MB
+ui_part_003.txt    994,623 bytes    0.949 MB
+
+IMPORTANT
+Read order:
+  ui_part_001.txt
+  ui_part_002.txt
+  ui_part_003.txt
+  ...
+
+The part files together reconstruct the original log.
+
